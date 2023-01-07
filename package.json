@@ -30,8 +30,8 @@
     }
   },
   "lint-staged": {
-    "src/**/*/{js,ts}": [
-      "npm runlint-fix"
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "npm run lint-fix"
     ]
   }
 }
