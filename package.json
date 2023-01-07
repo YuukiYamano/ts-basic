@@ -15,7 +15,7 @@
     "@typescript-eslint/parser": "^5.48.0",
     "eslint": "^8.31.0",
     "eslint-config-prettier": "^8.6.0",
-    "husky": "^8.0.3",
+    "husky": "^4.3.8",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.2",
     "ts-loader": "^9.4.2",
@@ -24,13 +24,13 @@
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
   },
-  "husky":{
-    "hooks":{
-      "pre-commit":"lint-staged"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
   },
-  "lint-staged":{
-    "src/**/*/{js,ts}":[
+  "lint-staged": {
+    "src/**/*/{js,ts}": [
       "npm runlint-fix"
     ]
   }
