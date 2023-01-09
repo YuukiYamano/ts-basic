@@ -13,12 +13,17 @@
 // anySample()
 // unknownSample()
 
-import { logMessage } from './function/basic'
-import { isUserSignedIn, isUserSignedIn2, sumProductsPrice } from './function/ parameters'
+// import { logMessage } from './function/basic'
+// import { isUserSignedIn, isUserSignedIn2, sumProductsPrice } from './function/ parameters'
 
-logMessage('Hello teoplz')
-isUserSignedIn('ABC', 'teoplz')
-isUserSignedIn('ABCD', 'teoplz')
-isUserSignedIn2('ABC')
-const sum = sumProductsPrice(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-console.log('Func Parameters sample 5: Sum = ', sum)
+// logMessage('Hello teoplz')
+// isUserSignedIn('ABC', 'teoplz')
+// isUserSignedIn('ABCD', 'teoplz')
+// isUserSignedIn2('ABC')
+// const sum = sumProductsPrice(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+// console.log('Func Parameters sample 5: Sum = ', sum)
+
+import objectSample from './object/object'
+import typeAliasSample from './object/ alias'
+objectSample()
+typeAliasSample()
