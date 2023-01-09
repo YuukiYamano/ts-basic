@@ -23,7 +23,12 @@
 // const sum = sumProductsPrice(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 // console.log('Func Parameters sample 5: Sum = ', sum)
 
-import objectSample from './object/object'
-import typeAliasSample from './object/ alias'
-objectSample()
-typeAliasSample()
+// import objectSample from './object/object'
+// import typeAliasSample from './object/ alias'
+// objectSample()
+// typeAliasSample()
+
+import arraySample from './array/array'
+import tupleSample from './array/tuple'
+tupleSample()
+arraySample()
