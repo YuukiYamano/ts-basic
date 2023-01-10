@@ -28,7 +28,12 @@
 // objectSample()
 // typeAliasSample()
 
-import arraySample from './array/array'
-import tupleSample from './array/tuple'
-tupleSample()
-arraySample()
+// import arraySample from './array/array'
+// import tupleSample from './array/tuple'
+// tupleSample()
+// arraySample()
+
+import genericsBasicSample from './generics/basic'
+import genericsAdvancedSample from './generics/ advanced'
+genericsBasicSample()
+genericsAdvancedSample()
