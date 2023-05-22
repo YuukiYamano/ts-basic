@@ -13,7 +13,7 @@ export default function arraySample() {
     const _someArray = [] //any
     _someArray.push(123)
 
-    _someArray.push('ABCaaaaaaa1')
+    _someArray.push('ABC')
 
     return _someArray
   }
